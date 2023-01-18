@@ -1,7 +1,7 @@
 #%%
 import os
 
-DATA_DIR='data/raw'
+DATA_DIR='raw'
 data_names = os.listdir(DATA_DIR)
 data_names = [name[:-4] for name in data_names if name != ".DS_Store"]
 
